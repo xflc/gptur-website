@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "contacts.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "startm5",
       "title": "StartM5",
@@ -84,7 +84,7 @@
     ],
     "uniqCompNum": 22,
     "versionPublish": "5.9.8",
-    "favicon": "@PROJECT_PATH@/assets/images/logos-21.png",
+    "favicon": "@PROJECT_PATH@/assets/images/logos-21_1.png",
     "mbrsiteDomain": "qyc957v4ub",
     "imageResize": false,
     "usedWebp": false,
