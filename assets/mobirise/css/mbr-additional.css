@@ -9,12 +9,9 @@ img,
 .google-map iframe,
 .slide-content,
 .plan,
-.card {
-  border-radius: 2rem 2rem 0 0 !important;
-}
-.item-wrapper{
-  border-radius: 2rem 2rem 2rem 2rem !important;
-
+.card,
+.item-wrapper {
+  border-radius: 2rem !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -738,7 +735,7 @@ a {
 .cid-tXk2RmlePX {
   padding-top: 5rem;
   padding-bottom: 0rem;
-  background-color: #edefeb;
+  background-color: #ffffff;
 }
 .cid-tXk2RmlePX .mbr-media {
   position: relative;
@@ -940,7 +937,6 @@ a {
   transition: .3s all;
 }
 .cid-tJGsCG1vVL .container {
-  max-width: none;
   display: flex;
   height: 90px;
   padding: 0.5rem 0.6rem;
@@ -955,6 +951,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100vw;
+  margin-top: 1rem;
   background-color: #41929d;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
   border-radius: 4px !important;
@@ -1479,7 +1476,7 @@ a {
 .cid-tXoeqUDu91 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #edefeb;
+  background-color: #ffffff;
 }
 .cid-tXoeqUDu91 .mbr-fallback-image.disabled {
   display: none;
@@ -1508,7 +1505,7 @@ a {
   display: flex;
   flex-direction: column;
   height: 100%;
-  background: #f14e2b;
+  background: #3b736b;
 }
 @media (max-width: 991px) {
   .cid-tXoeqUDu91 .item .item-wrapper {
@@ -1528,6 +1525,9 @@ a {
 }
 .cid-tXoeqUDu91 P {
   color: #ffffff;
+}
+.cid-tXoeqUDu91 .mbr-section-title {
+  text-align: center;
 }
 .cid-tXkijtKBVu {
   padding-top: 5rem;
@@ -1675,7 +1675,6 @@ a {
   transition: .3s all;
 }
 .cid-tXnX7koOaW .container {
-  max-width: none;
   display: flex;
   height: 90px;
   padding: 0.5rem 0.6rem;
@@ -1690,6 +1689,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100vw;
+  margin-top: 1rem;
   background-color: #41929d;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
   border-radius: 4px !important;
@@ -2312,7 +2312,6 @@ a {
   transition: .3s all;
 }
 .cid-tXo3Jkdy0X .container {
-  max-width: none;
   display: flex;
   height: 90px;
   padding: 0.5rem 0.6rem;
@@ -2327,6 +2326,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100vw;
+  margin-top: 1rem;
   background-color: #41929d;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
   border-radius: 4px !important;
