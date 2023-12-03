@@ -9,9 +9,11 @@ img,
 .google-map iframe,
 .slide-content,
 .plan,
-.card,
-.item-wrapper {
+.card {
   border-radius: 2rem 2rem 0 0 !important;
+}
+.item-wrapper {
+  border-radius: 2rem 2rem 2rem 2rem !important;
 }
 .video-wrapper {
   overflow: hidden;
