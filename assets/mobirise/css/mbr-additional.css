@@ -937,7 +937,6 @@ a {
   transition: .3s all;
 }
 .cid-tJGsCG1vVL .container {
-  max-width: none;
   display: flex;
   height: 90px;
   padding: 0.5rem 0.6rem;
@@ -952,6 +951,7 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100vw;
+  margin-top: 1rem;
   background-color: #41929d;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
   border-radius: 4px !important;
