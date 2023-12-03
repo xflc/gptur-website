@@ -11,7 +11,7 @@ img,
 .plan,
 .card,
 .item-wrapper {
-  border-radius: 2rem !important;
+  border-radius: 2rem 2rem 0 0 !important;
 }
 .video-wrapper {
   overflow: hidden;
@@ -937,6 +937,7 @@ a {
   transition: .3s all;
 }
 .cid-tJGsCG1vVL .container {
+  max-width: none;
   display: flex;
   height: 90px;
   padding: 0.5rem 0.6rem;
@@ -951,7 +952,6 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100vw;
-  margin-top: 1rem;
   background-color: #41929d;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
   border-radius: 4px !important;
@@ -1672,6 +1672,7 @@ a {
   transition: .3s all;
 }
 .cid-tXnX7koOaW .container {
+  max-width: none;
   display: flex;
   height: 90px;
   padding: 0.5rem 0.6rem;
@@ -1686,7 +1687,6 @@ a {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100vw;
-  margin-top: 1rem;
   background-color: #41929d;
   box-shadow: 0 30px 60px 0 rgba(27, 31, 10, 0.08);
   border-radius: 4px !important;
