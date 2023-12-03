@@ -83,7 +83,17 @@
       }
     ],
     "uniqCompNum": 22,
-    "versionPublish": "5.9.8"
+    "versionPublish": "5.9.8",
+    "favicon": "@PROJECT_PATH@/assets/images/logos-21.png",
+    "mbrsiteDomain": "qyc957v4ub",
+    "imageResize": false,
+    "usedWebp": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
