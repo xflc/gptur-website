@@ -16,7 +16,7 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIAL }}
 
     - name: Upload to blob storage
-      uses: azure/CLI@v1
+      uses: azure/cli@v2
       with:
         inlineScript: |
             az storage blob upload-batch --account-name gptur4sa --auth-mode key -d '$web' -s .
