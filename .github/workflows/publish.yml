@@ -27,7 +27,7 @@ jobs:
       with:
         inlineScript: |
            # az cdn endpoint purge --content-paths  "/*" --profile-name "gptur4p" --name "gptur" --resource-group "gptur4rg"
-           az cdn endpoint purge --content-paths  "/*" --profile-name "gpturfdp" --name "gptur" --resource-group "gptur4rg"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "gpturfdp" --name "gpturep" --resource-group "gpturrg"
 
   # Azure logout
     - name: logout
