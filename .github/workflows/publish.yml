@@ -35,7 +35,7 @@ jobs:
       uses: azure/cli@v2
       with:
           inlineScript: |
-              az storage blob upload-batch --account-name "gptursa" --auth-mode key --destination '$web' --source site/
+              az storage blob upload-batch --account-name "gptursa" --auth-mode key --destination '$web' --source site/ --overwrite
 
     - name: Context
       run: |
