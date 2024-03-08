@@ -19,13 +19,15 @@ jobs:
       uses: azure/cli@v2
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name gptur4sa --auth-mode key -d '$web' -s .
+            # az storage blob upload-batch --account-name gptur4sa --auth-mode key -d '$web' -s .
+            az storage blob upload-batch --account-name gptursa --auth-mode key -d '$web' -s .
 
     - name: Purge CDN endpoint
       uses: azure/cli@v2
       with:
         inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name "gptur4p" --name "gptur" --resource-group "gptur4rg"
+           # az cdn endpoint purge --content-paths  "/*" --profile-name "gptur4p" --name "gptur" --resource-group "gptur4rg"
+           az cdn endpoint purge --content-paths  "/*" --profile-name "gpturfdp" --name "gptur" --resource-group "gptur4rg"
 
   # Azure logout
     - name: logout
