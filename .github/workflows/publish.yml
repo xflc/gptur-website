@@ -20,7 +20,7 @@ jobs:
       with:
         inlineScript: |
             # az storage blob upload-batch --account-name gptur4sa --auth-mode key -d '$web' -s .
-            az storage blob upload-batch --account-name "gptursa" --auth-mode key --destination "$web" --source . --pattern "assets/*" --pattern "404.html" --pattern "contacts.html" --pattern "index.html" --pattern "page3.html"
+            az storage blob upload-batch --account-name "gptursa" --auth-mode key --destination '$web' --source . --pattern "assets/*" --pattern "404.html" --pattern "contacts.html" --pattern "index.html" --pattern "page3.html"
 
     - name: Purge CDN endpoint
       uses: azure/cli@v2
